@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <Navbar />
+      <Navigation />
       <Hero />
       <Projects />
       <Services />
