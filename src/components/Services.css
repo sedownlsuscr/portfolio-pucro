@@ -1,0 +1,61 @@
+.services-section {
+  background-color: #ffffff; /* Cambio radical: Fondo BLANCO para contraste brutal */
+  color: #000000; /* Texto Negro */
+  padding: 100px 50px;
+  min-height: 80vh;
+}
+
+.section-title {
+  color: black;
+  border-bottom: 2px solid black;
+  margin-bottom: 50px;
+}
+
+.service-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #000000;
+  padding: 40px 0;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Suaviza la animación */
+}
+
+.service-number {
+  font-family: 'Courier New', monospace; /* Toque técnico */
+  font-size: 1.2rem;
+  margin-right: 30px;
+  color: #555;
+}
+
+.service-name {
+  flex-grow: 1; /* Ocupa todo el espacio posible */
+  font-size: 2.5rem; /* Texto MUY grande */
+  font-weight: 800;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: 'Arial Black', sans-serif;
+}
+
+.arrow {
+  font-size: 2rem;
+  transition: transform 0.3s ease;
+}
+
+/* --- EFECTO HOVER --- */
+/* Cuando pasas el mouse por encima de un servicio: */
+.service-item:hover {
+  background-color: #000000; /* Se vuelve negro */
+  color: #ffffff; /* Texto blanco */
+  padding-left: 20px; /* Se mueve un poco a la derecha */
+  padding-right: 20px;
+}
+
+.service-item:hover .service-number {
+  color: #888;
+}
+
+.service-item:hover .arrow {
+  transform: rotate(45deg); /* La flecha gira */
+  color: #2b5aff; /* Un toque de tu color azul favorito */
+}

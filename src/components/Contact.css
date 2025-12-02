@@ -1,0 +1,65 @@
+.contact-section {
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 80vh; /* Altura considerable para cerrar bien */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  text-align: center;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 1rem;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.email-link {
+  display: block;
+  font-family: 'Arial Black', sans-serif;
+  font-size: 4vw; /* El tamaño se adapta al ancho de la pantalla */
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 100px;
+  transition: color 0.3s ease;
+}
+
+.email-link:hover {
+  color: #2b5aff; /* Tu azul favorito al pasar el mouse */
+  text-decoration: underline;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border-top: 1px solid #333;
+  padding-top: 40px;
+  width: 100%;
+}
+
+.socials {
+  display: flex;
+  gap: 30px;
+}
+
+.socials a {
+  color: #aaaaaa;
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.socials a:hover {
+  color: white;
+}
+
+.copyright {
+  color: #444;
+  font-size: 0.8rem;
+  margin-top: 20px;
+}

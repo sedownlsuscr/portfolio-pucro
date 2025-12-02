@@ -1,0 +1,30 @@
+.hero-section {
+  height: 100vh; /* Ocupa toda la pantalla */
+  width: 100%;
+  background-color: #000000; /* Fondo Negro Puro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.content {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem; /* Letra GIGANTE */
+  font-weight: 900;
+  letter-spacing: -2px; /* Las letras apretadas (estilo brutalista) */
+  margin: 0;
+  font-family: 'Arial Black', sans-serif; /* Tipografía gruesa */
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 4px; /* Letras muy separadas para contraste */
+  color: #888888; /* Gris elegante */
+  margin-top: 10px;
+  text-transform: uppercase;
+}

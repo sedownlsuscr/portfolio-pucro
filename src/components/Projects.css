@@ -1,0 +1,50 @@
+.projects-section {
+  background-color: #0a0a0a; /* Un negro un pelín más claro para diferenciar */
+  padding: 100px 50px;
+  color: white;
+  min-height: 100vh;
+}
+
+h2 {
+  font-family: 'Arial Black', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 60px;
+  border-bottom: 1px solid #333; /* Una línea sutil debajo del título */
+  padding-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+  gap: 40px; /* Espacio entre tarjetas */
+}
+
+.project-card {
+  cursor: pointer;
+}
+
+.image-box {
+  width: 100%;
+  height: 300px;
+  background-color: #222;
+  margin-bottom: 20px;
+  transition: transform 0.5s ease; /* Suaviza el zoom */
+}
+
+/* Efecto Hover: Zoom brutalista */
+.project-card:hover .image-box {
+  transform: scale(0.95); /* Se encoge un poco al pasar el ratón */
+  border: 1px solid white;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+p {
+  color: #666;
+  margin-top: 5px;
+  font-size: 0.9rem;
+}
