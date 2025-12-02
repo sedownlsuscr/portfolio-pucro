@@ -1,8 +1,8 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
-import './Navbar.css';
+import './Navigation.css';
 
-function Navbar() {
+function Navigation() {
   const navRef = useRef(null);
 
   useEffect(() => {
@@ -14,7 +14,7 @@ function Navbar() {
   }, []);
 
   return (
-    <nav ref={navRef} className="navbar">
+    <nav ref={navRef} className="navigation">
       <div className="logo">PUCRO</div>
       <div className="menu-items">
         <a href="#proyectos">Proyectos</a>
@@ -25,4 +25,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Navigation;
